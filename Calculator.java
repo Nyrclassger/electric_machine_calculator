@@ -151,7 +151,7 @@ class Calculator {
             power.setText(Double.toString(c_power));
 
 
-            double c_efficiency = (c_power_out / c_power) * 100.0; // Calculation of electrical machine efficiency
+            double c_efficiency = (c_power_out / c_power) * 100.0; // Calculation of electrical machine efficiency η = (P_out / P_in) * 100
             long c_efficiency_rounded = (long) (c_efficiency * 100);
             double c_efficiency_final = c_efficiency_rounded / 100.0;
             if (c_efficiency_final > 100.0) {
