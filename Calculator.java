@@ -166,6 +166,7 @@ class Calculator {
             power.setText("Error!");
             efficiency.setText("Error!");
         }
+            
         });
     }
 }
